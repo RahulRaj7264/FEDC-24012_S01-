@@ -1,10 +1,10 @@
 const students = [
-    { name: "Alice", age: 20, marks: { math: 85, science: 90, english: 88 } },
-    { name: "Bob", age: 22, marks: { math: 78, science: 82, english: 80 } },
-    { name: "Charlie", age: 21, marks: { math: 92, science: 88, english: 84 } }
+    { name: "Rahul", age: 20, marks: { math: 85, science: 90, english: 88 } },
+    { name: "Ravi", age: 22, marks: { math: 78, science: 82, english: 80 } },
+    { name: "Chirag", age: 21, marks: { math: 92, science: 88, english: 84 } }
 ];
 
-students.push({ name: "David", age: 23, marks: { math: 75, science: 89, english: 91 } });
+students.push({ name: "Deepak", age: 23, marks: { math: 75, science: 89, english: 91 } });
 
 console.log("Average marks for each student:");
 students.forEach(student => {
